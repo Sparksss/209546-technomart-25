@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Илья Рогаткин](https://up.htmlacademy.ru/htmlcss/25/user/209546).
-* Наставник: `Неизвестно`.
+* Наставник: [Stepan Kurkin](https://htmlacademy.ru/profile/id922331).
 
 ---
 
