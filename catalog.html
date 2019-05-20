@@ -74,28 +74,48 @@
     </section>
     <section class="sort">
       <h2>Сортировка:</h2>
-      <!-- Здесь будет форма -->
+      <form class="sort-form" action="https://echo.htmlacademy.ru">
+        <fieldset>
+          <legend>Производители:</legend>
+          <ul>
+            <li>
+              <label for="bosh">BOSH</label>
+              <input type="checkbox" checked name="bosh" id="bosh">
+            </li>
+            <li>
+              <label for="interscol">ИНТЕРСКОЛ</label>
+              <input type="checkbox" name="interscol" id="interscol">
+            </li>
+            <li>
+              <label for="makita">MAKITA</label>
+              <input type="checkbox" checked name="makita" id="makita">
+            </li>
+            <li>
+              <label for="dewalt">DEWALT</label>
+              <input type="checkbox" name="dewalt" id="dewalt">
+            </li>
+            <li>
+              <label for="hitachi">HITACHI</label>
+              <input type="checkbox" name="hitachi" id="hitachi">
+            </li>
+          </ul>
+        </fieldset>
+        <fieldset>
+          <legend>Питание:</legend>
+          <ul>
+            <li>
+              <label for="battery">Аккамуляторные</label>
+              <input type="radio" checked name="power" id="battery">
+            </li>
+            <li>
+              <label for="mains">Сетевые</label>
+              <input type="radio" name="power" id="mains">
+            </li>
+          </ul>
+        </fieldset>
+        <button type="submit">Показать</button>
+      </form>
     </section>
-    <div>
-      <section class="brands">
-        <h3 class="brands-title">Производители</h3>
-        <ul>
-          <li class="selected_brand">BOSH</li>
-          <li>ИНТЕРСКОЛ</li>
-          <li class="selected_brand">MAKITA</li>
-          <li>DEWALT</li>
-          <li>HITACHI</li>
-        </ul>
-      </section>
-      <section class="characteristics">
-        <h3 class="characteristics">Питание:</h3>
-        <ul>
-          <li>Аккамуляторные</li>
-          <li>Сетевые</li>
-        </ul>
-      </section>
-      <button type="submit">Показать</button>
-    </div>
     <section class="catalog">
       <ul class="catalog-list">
         <li class="catalog-item">
@@ -317,6 +337,12 @@
       </div>
     </div>
   </footer>
+  <section class="modal modal-add-product">
+    <strong>Товар добавлен в корзину!</strong>
+    <a class="button buy-order" href="#">Оформить заказ</a>
+    <button class="button continue-buying" type="button">Продолжить покупки</button>
+    <button class="close-button" type="button" aria-label="Закрыть">Х</button>
+  </section>
 </body>
 
 </html>
